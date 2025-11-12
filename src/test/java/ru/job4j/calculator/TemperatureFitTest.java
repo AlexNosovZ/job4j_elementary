@@ -31,7 +31,7 @@ class TemperatureFitTest {
     }
 
     @Test
-    void whenRoomTemperature25ThenMeat5() {
+    void whenRoomTemperature25ThenMeat20() {
         int input = 25;
         double expected = 20.0;
         double output = TemperatureFit.idealTemperatureForMeat(input);
