@@ -9,15 +9,15 @@ public class MathCalculator {
     }
 
     public static double subAndDiv(double first, double second) {
-        return sub(first,second)
-                + div(first,second);
+        return sub(first, second)
+                + div(first, second);
     }
 
     public static double sumFourOperations(double first, double second) {
-        return sum(first,second)
-                + sub(first,second)
+        return sum(first, second)
+                + sub(first, second)
                 + multiply(first, second)
-                + div(first,second);
+                + div(first, second);
     }
 
     public static void main(String[] args) {
