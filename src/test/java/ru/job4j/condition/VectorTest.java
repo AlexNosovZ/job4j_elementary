@@ -42,7 +42,7 @@ class VectorTest {
     void whenVector00AndMinus12ThenResultMinus12() {
         int x1 = 0, y1 = 0, x2 = -1, y2 = -2;
         String expected = "(-1, -2)";
-        String output = Vector.addVectors(x1,y1,x2,y2);
+        String output = Vector.addVectors(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected);
     }
 
@@ -50,7 +50,7 @@ class VectorTest {
     void whenVector12AndMinus12ThenResult00() {
         int x1 = 1, y1 = 2, x2 = -1, y2 = -2;
         String expected = "(0, 0)";
-        String output = Vector.addVectors(x1,y1,x2,y2);
+        String output = Vector.addVectors(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected);
     }
 }

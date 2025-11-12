@@ -61,6 +61,4 @@ class PointTest {
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
-
-
 }

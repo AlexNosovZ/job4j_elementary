@@ -20,7 +20,7 @@ class ConverterTest {
         double expected = 100;
         double output = Converter.rubleToEuro(input);
         double value = 0.0001;
-        assertThat(output).isEqualTo(expected,withPrecision(value));
+        assertThat(output).isEqualTo(expected, withPrecision(value));
     }
 
     @Test
